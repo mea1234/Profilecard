@@ -1,0 +1,120 @@
+body {
+  background-color: rgba(25, 161, 174, 1);
+  height: 720px;
+  width: 1440px;
+  margin: 0;
+  font-family: "Kumbh Sans";
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+#bgtop {
+  position: absolute;
+  left: -410.47px;
+  top: -356px;
+  width: 165.8%;
+  max-width: 978px;
+}
+
+#bgbottom {
+  position: absolute;
+  width: 165.8%;
+  left: 145.53px;
+  top: 337px;
+  max-width: 978px;
+}
+
+#container {
+  width: 86.9%;
+  max-width: 350px;
+  height: 374px;
+  /*margin: 39.2% auto 39.2% auto;*/
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  position: relative;
+  margin: 0 auto;
+}
+#bgcard {
+  width: 100%;
+  height: 37.4%;
+  border-radius: 15px 15px 0 0;
+}
+#user {
+  position: absolute;
+  top: 23.2%;
+  left: 35.2%;
+  width: 29.4%;
+  border-radius: 50%;
+  border: 5px white solid;
+}
+h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 69px auto 0 0;
+  text-align: center;
+  color: rgba(46, 51, 73, 1);
+  height: 18px;
+}
+div h1 span {
+  font-weight: 400;
+  color: rgba(107, 112, 130, 1);
+}
+
+#container p {
+  color: rgba(107, 112, 130, 1);
+  text-align: center;
+  margin: 13px 0 28px 0;
+  font-weight: 40px;
+  font-size: 14px;
+  height: 14px;
+}
+#footer {
+  border-top: 1px rgba(232, 233, 236, 1) solid;
+}
+#numbers {
+  width: 66.9%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  color: rgba(46, 51, 73, 1);
+  font-size: 18px;
+  margin-bottom: 9px;
+  margin-top: 24px;
+  height: 18px;
+}
+#descriptions span {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: rgba(107, 112, 130, 1);
+  height: 10px;
+  margin-bottom: 27px;
+}
+#descriptions {
+  display: flex;
+}
+#descr {
+  margin: 0 13% 0 14.8%;
+}
+#descr2 {
+  margin: 0 17.3% 0 16.4%;
+}
+
+@media screen and (min-width: 1000px) {
+  #bgtop {
+    left: -285px;
+    top: -510px;
+  }
+  #bgbottom {
+    left: 692px;
+    top: 355px;
+  }
+}
